@@ -1,0 +1,173 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: white;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.menu{
+    background-color: white;
+    position: sticky;
+    width: 100%;
+    box-shadow: 0px 1px 3px black ;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.menu-home a, .menu-me a, .menu-school a{
+    padding: 20px;
+    float: left;
+    font-size: 25px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: #EB1D36;
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    margin: 0;
+    box-shadow: 0px 1px 3px black ;
+}
+.footer-contus, .footer-instagram, .footer-twitter{
+    padding: 5px 5px 5px 20px;
+    color: #EB1D36;
+    font-family:'Edu VIC WA NT Beginner', cursive;
+}
+.menu-home :hover, .menu-me :hover, .menu-school :hover{
+    background-color: #CFD2CF;
+    color: black;
+}
+.home-top{
+    display: flex;
+    margin-top: 20px;
+}
+.image{
+    margin: 0;
+}
+.image img{
+    margin: 0px 50px 0 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.home-top > div{
+    margin: 10px 20px 0 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.home-top h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding: 0;
+    margin: 10px 0 10px 0;
+}
+.home-skills{
+    margin: 0px 50px 0 auto; 
+}
+.home-skills p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+.download{
+    width: 200px;
+    background-color: #646464;
+}
+.skillsbox{
+    width: 80%;
+    margin: 0 auto 30px 0;
+    height: 30px;
+    background-color: #f4f4f4;
+}
+.skillsbox-photography{
+    margin: 0;
+    width: 75%;
+    height: 100%;
+    background-color: #646464;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+  
+}
+.btn {
+    background-color: #646464;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:'Titillium Web', sans-serif;
+  }
+  .btn:hover {
+    background-color: #333232;
+  }
+.home-line{
+    margin: 20px auto 0 auto;
+    height: 2px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+.home-top-photomid{
+    margin: 30px 0 30px 0;
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+.home-top-midtext > p{
+    margin: 20px 20px 20px 50px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.home-top h2{
+    margin: 0 auto 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+.home-top-midtext h2{
+    margin: 50px auto 0px auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+#one{
+  display: block;
+  position: relative;
+  visibility: hidden;
+  top: -40px;
+}
+#me{
+    display: block;
+    position: relative;
+    visibility: hidden;
+    top: -70px;
+  }
+.home-top-midtext_smp{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    margin: 30px 0 30px 0;
+    object-position: bottom;
+}
+.home-top-midtext_sma{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    margin: 30px 0 30px 0;
+    object-position: bottom;
+}
+.home-top-midtext_kuliah{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    margin: 30px 0 30px 0;
+    
+}
